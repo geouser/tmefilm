@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>The Moments Entertainment</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="css/app-min.css" rel="stylesheet">
+    <script src="js/app-min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/map_source.js"></script>
+</head>
+<body lang="tr" onscroll='scroll();'>
+<header>
+    <div class="logo">
+        <a href="/" class="nav-brand hidden-md"><img src="images/logo.png"> </a>
+    </div>
+    <div class="navbar-header visible-xs visible-sm">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        </button>
+    </div>
+    <div class="container navbar-collapse collapse" id="navbar">
+        <ul class="nav navbar-nav scroll-a" style="margin-left: 15px">
+            <!--<li class="hidden-sm hidden-xs"><a href="/" class="nav-brand"><img src="images/logo.png"> </a></li>-->
+            <li class="hidden-xs dropdown menu-large">
+                <a href="#in_theater" class="dropdown-toggle" id="" data-toggle="dropdown">
+                     Vizyondakiler
+                </a>
+                <div class="dropdown-menu megamenu" style="width: 100% !important;">
+                    <div class="container" style="padding:25px 0px 0 0px;">
+
+
+                        <div class="col-md-2 no-padder" style="width: 150px;">
+                            <a href="/film/Siccin-3-Curmu-Ask/137" class="thumbnail">
+                                <img src="images/124996364.jpg" class="img-responsive"/>
+                                <div class="clearfix"></div>
+                                <time>2 Eylül 2016</time>
+                                <h4>Siccin 3: Cürmü Aşk</h4>
+                            </a>
+                        </div>
+
+
+                        <div class="col-md-2 no-padder" style="width: 150px;">
+                            <a href="/film/Yildizlar-da-Kayar--Das-Borak/155" class="thumbnail">
+                                <img src="images/26165188.jpg" class="img-responsive"/>
+                                <div class="clearfix"></div>
+                                <time>16 Eylül 2016</time>
+                                <h4>Yıldızlar da Kayar - Das Borak</h4>
+                            </a>
+                        </div>
+
+
+                        <div class="col-md-2 no-padder" style="width: 150px;">
+                            <a href="/film/Blair-Cadisi/154" class="thumbnail">
+                                <img src="images/152919948.jpg" class="img-responsive"/>
+                                <div class="clearfix"></div>
+                                <time>23 Eylül 2016</time>
+                                <h4>Blair Cadısı</h4>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="text-center v-all">
+                        <a href="/filmler/vizyon">
+                            Hepsini gör
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </li>
+            <li class="hidden-xs dropdown menu-large">
+                <a href="#coming_soon" class="dropdown-toggle" id="" data-toggle="dropdown">
+                Gelecek filmler
+                </a>
+                <div class="dropdown-menu megamenu"  style="width: 100% !important;">
+
+                    <div class="container" style="padding:25px 0px 0 0px;">
+
+
+
+                        <div class="col-md-2 no-padder" style="width: 150px;">
+                            <a href="/film/Deepwater-Horizon-Buyuk-Felaket/153" class="thumbnail">
+                                <img src="images/824642360.jpg" class="img-responsive"/>
+                                <div class="clearfix"></div>
+                                <time>30 Eylül 2016</time>
+                                <h4>Deepwater Horizon : Büyük Felaket</h4>
+                            </a>
+                        </div>
+
+
+                        <div class="col-md-2 no-padder" style="width: 150px;">
+                            <a href="/film/Bayan-Peregrine`in-Tuhaf-Cocuklari/156" class="thumbnail">
+                                <img src="images/512783229.jpg" class="img-responsive"/>
+                                <div class="clearfix"></div>
+                                <time>30 Eylül 2016</time>
+                                <h4>Bayan Peregrine'in Tuhaf Çocukları</h4>
+                            </a>
+                        </div>
+
+
+                        <div class="col-md-2 no-padder" style="width: 150px;">
+                            <a href="/film/Ortaokul-Hayatimin-En-Kotu-Yillari/158" class="thumbnail">
+                                <img src="images/457576931.jpg" class="img-responsive"/>
+                                <div class="clearfix"></div>
+                                <time>21 Ekim 2016</time>
+                                <h4>Ortaokul Hayatımın En Kötü Yılları</h4>
+                            </a>
+                        </div>
+
+
+                        <div class="col-md-2 no-padder" style="width: 150px;">
+                            <a href="/film/Canavarin-Cagrisi/157" class="thumbnail">
+                                <img src="images/941448390.jpg" class="img-responsive"/>
+                                <div class="clearfix"></div>
+                                <time>25 Kasım 2016</time>
+                                <h4>Canavarın Çağrısı</h4>
+                            </a>
+                        </div>
+
+
+                        <div class="col-md-2 no-padder" style="width: 150px;">
+                            <a href="/film/Assassin`s-Creed/149" class="thumbnail">
+                                <img src="images/497677028.jpg" class="img-responsive"/>
+                                <div class="clearfix"></div>
+                                <time>6 Ocak 2017</time>
+                                <h4>Assassin's Creed</h4>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="text-center v-all">
+                        <a href="/filmler/gelecek">
+                            Hepsini gör
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </li>
+            <li class="visible-xs"><a href="/filmler/vizyon">Vizyondakiler</a></li>
+            <li class="visible-xs"><a href="/filmler/gelecek">Gelecek filmler</a></li>
+            <li>
+
+                <a href="#production">Yapım</a>
+
+            </li>
+            <li class="visible-lg visible-md"><a href="/login-media">Basın odası</a></li>
+            <li><a href="/filmler/arsiv">arşiv</a></li>
+            <li><a href="/filmler/tv_video">TV & Video</a></li>
+            <li class="divider visible-xs" style="border-top:1px solid rgba(255,255,255,.1); margin:0; padding: 0; height: 1px;"></li>
+
+                <li class="visible-xs"><a href="/dil/en">ENG</a></li>
+
+
+        </ul>
+
+    </div>
+
+    <div class="language">
+        <div class="dropdown select-language hidden-xs">
+            <a class="select dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" href="#">
+                TR
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li role=""><a href="/dil/tr">TR</a></li>
+                <li role=""><a href="/dil/en">EN</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <a href="#" class="search btn-search"><img src="images/icon-search.png"> </a>
+        </div>
+    </div>
+
+</header>
+
+<div class="preloader" style="width: 100%; height: 100%; position: fixed; left: 0px; top: 0px; background: black; z-index: 9999; display: none;">
+	<div style="display:table-cell; vertical-align:middle; text-align:center; width:100%;">
+    	<div class="dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+    
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <defs>
+            <filter id="goo">
+              <fegaussianblur in="SourceGraphic" stdDeviation="12" result="blur"></fegaussianblur>
+              <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></fecolormatrix>
+              <feblend in="SourceGraphic" in2="goo"></feblend>
+            </filter>
+          </defs>
+        </svg>
+    </div>
+</div>
+
+<section class="coming-soon-list" style="padding-bottom:100px">
+    <div class="container">
+        <h3 class="title">
+        	media
+        </h3>
+        <div class="clearfix"></div>
+        <form action="http://tmefilm.com/login-media" method="post">
+        
+        <div class="col-xs-6 col-md-offset-3" style="border:1px solid #000; padding:30px 50px 50px 50px; text-align:center; letter-spacing:2px; text-transform:uppercase; position:relative; z-index:1; margin-bottom:-20px;">
+            please enter your password
+
+			<input type="password" name="password" class="form-control" autocomplete="off" style="border:1px solid #000; margin-top:20px; font-size:20px; background:#F2F2F2; height:50px; padding:10px; line-height:30px; border-radius:0; text-align:center;">            
+        </div>
+        <div class="col-xs-6 col-md-offset-3" style="position:relative; text-align:center; z-index:2;">
+        	<button type="submit" class="login-btn">
+            	login
+            </button>
+        </div>
+        </form>
+
+    </div>
+</section>
+
+
+
+<section id="map-canvas" style="height: 200px; border-top:1px solid #dbdbdb"></section>
+<footer >
+    <div class="container">
+        <div class="col-md-3 col-sm-3 footer-logo" style="min-height: 100px;">
+            <img src="images/logo.png" style="margin-top:-10px">
+        </div>
+        <div class="col-md-3 col-sm-3 list footer-fix">
+            <ul>
+                <li>
+                    <a href="">
+                         Hakkımızda
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                         haberler
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                         Şartlar ve koşullar
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                         Gizlilik
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-sm-3 list footer-fix">
+            Konaklar mh. <br>gökkuşağı sk. no: 11 <br>4 levent 34330 <br>beşiktaş / istanbul
+        </div>
+        <div class="col-md-3 col-sm-3 list footer-fix text-cap">
+            <span>P.</span>  +90 212 284 20 02 (PBX)<br>
+            <span>F.</span>  +90 212 284 20 07
+            <a href="mailto:info@tme.com.tr"> info@tme.com.tr</a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-md-9 col-sm-9 col-lg-offset-3 m-t-lg text">
+            <span class="space hidden-xs"> © The Moments Entertainment 2014. All rights reserved.</span>
+            <span class="social-footer pull-right">
+                <a href="https://www.facebook.com/TME-Filmleri-1530212837251498/?ref=ts&fref=ts&__mref=message_bubble" target="_blank" style="margin-left: 20px"><img src="images/icon-white-facebook.png" style="margin:0"></a>
+                <a href="https://twitter.com/tmefilmleri" target="_blank" style="margin-left: 20px"><img src="images/icon-white-twitter.png" style="margin:0"></a>
+                <a href="#" target="_blank" style="margin-left: 20px"><img src="images/icon-white-instagram.png" style="margin:0"></a>
+                <a href="https://www.youtube.com/channel/UCV2r5ygG-euD-vv6mcvK73g" target="_blank" style="margin-left: 20px"><img src="images/icon-white-youtube.png" style="margin:0"></a>
+            </span>
+            <span class="space visible-xs"> © The Moments Entertainment 2014. All rights reserved.</span>
+            <div class="clearfix"></div>
+            <span class="text" style="text-align:justify">Property of THE. Use of this website (including any and all parts and components) constitutes your acceptance of these New Terms and Conditions and Privacy Policy. The materials on this website are not to be sold, traded or given away. Any copying, manipulation, publishing, or other transfer of these materials, except as specifically provided in the terms and conditions of use, is strictly prohibited.</span>
+            <div class="clearfix m-t"></div>
+            <span class="combomonkey m-t"> <a href="http://combomonkey.com" target="_blank">combomonkey</a></span>
+        </div>
+    </div>
+</footer>
+
+
+<div class="modalvideo-back none"></div>
+<div class="modalvideo none">
+    <div id="myDiv"></div>
+    <div class="social">
+        <img src="images/icon-video-close.png" class="video-close-btn" style="cursor: pointer"/>
+        <span class="share-text visible-lg">PAYLAŞ</span>
+        <a href="" class="share-facebook visible-lg"><img src="images/icon-video-facebook.png"/></a>
+        <a href="" class="share-facebook visible-lg"><img src="images/icon-video-twitter.png"/></a>
+    </div>
+</div>
+
+
+<div class="modalsearch-back none"></div>
+<div class="modalsearch none">
+    <div class="close">
+        <img src="images/icon-search-close.png" class="search-close-btn" style="cursor: pointer"/>
+    </div>
+    <div class="search-text"> ARA </div>
+    <div class='clearfix'></div>
+    <input class='search-input' name='' type='text' style='outline:none;'>
+    <div class='search-area-container'></div>
+</div>
+
+
+
+
+
+</body>
+</html>
