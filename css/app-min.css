@@ -10019,7 +10019,8 @@ footer .col-md-3.list ul li a:hover {
     width: 70px;
     float: left;
     position: absolute;
-    right: -70px
+    right: -70px;
+    top: 0;
 }
 
 .modalvideo .social span {
@@ -10172,7 +10173,7 @@ footer .col-md-3.list ul li a:hover {
     }
     .modalvideo {
         top: 30px;
-        height: auto;
+        height: 300px;
         width: 100%;
         margin-top: 0;
         position: fixed;
@@ -11282,4 +11283,50 @@ footer .col-md-3.list ul li a:hover {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0)
+}
+
+#modalvideo {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    display: none;
+    z-index: 102;
+}
+#playvideo {
+    width: 100%;
+    height: 100%;
+}
+#modalvideo.shown {
+    display: block;
+}
+.overlay:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#playvideo {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+#playvideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
