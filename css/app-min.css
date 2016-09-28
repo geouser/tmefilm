@@ -9649,7 +9649,9 @@ h3.title::after {
 }
 
 .coming-soon .col-md-4 .images {
-    position: relative
+    position: relative;
+    height: 412px;
+    overflow: hidden;
 }
 
 .coming-soon .col-md-4 .images .play_container {
@@ -10745,6 +10747,11 @@ footer .col-md-3.list ul li a:hover {
     padding: 5px;
     min-height: 380px!important;
     height: auto
+}
+.coming-soon-list .poster-list a {
+    height: 230px;
+    overflow: hidden;
+    display: block;
 }
 
 .coming-soon-list .poster-list:hover img {
