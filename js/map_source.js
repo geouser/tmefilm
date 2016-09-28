@@ -1,10 +1,10 @@
 var initializeMap;
 initializeMap = function() {
 	var iw1, latlng, map, marker, options;
-	latlng = new google.maps.LatLng(41.008238, 28.978359);
+	latlng = new google.maps.LatLng(40.382699, 49.848028);
 	options = {
 		scrollwheel: false,
-		zoom: 13,
+		zoom: 11,
 		center: latlng,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		mapTypeControl: true,
