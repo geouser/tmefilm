@@ -3351,7 +3351,7 @@ if (! function(a, b) {
                 var h = {
                     relatedTarget: this
                 };
-                if (f.trigger(d = a.Event("show.bs.dropdown", h)), d.isDefaultPrevented()) return;
+                if (f.trigger(d = a.Event("show.bs.dropdown", h))) return;
                 e.trigger("focus").attr("aria-expanded", "true"), f.toggleClass("open").trigger("shown.bs.dropdown", h)
             }
             return !1
